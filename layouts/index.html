@@ -30,10 +30,19 @@
   padding: 3rem;
 }
 
+.btn-login {
+  margin-right: 1rem;
+}
+
 @media (max-width: 576px) {
   section > div {
     margin-top: 4rem;
     margin-bottom: 4rem;
+  }
+
+  .menu-actions {
+    text-align: center !important;
+    margin: 1rem 0rem;
   }
 
   .img-fluid {
@@ -88,9 +97,10 @@
             <li class="nav-item"><a class="nav-link active" href="/services">Quanto custa</a></li>
           </ul>
 
-          <form class="d-flex">
-            <a href="https://app.pjpark.com.br" class="btn btn-secondary">Acesse o sistema</a>
-          </form>
+          <div class="menu-actions">
+            <a href="https://app.pjpark.com.br/users/sign_up" class="btn btn-light btn-login">Login</a>
+            <a href="https://app.pjpark.com.br/users/sign_up" class="btn btn-secondary">Quero ser cliente</a>
+          </div>
         </div>
       </div>
     </nav>
@@ -132,7 +142,7 @@
         </div>
 
         <div class="row mt-5">
-          <div class="col-sm-12 col-md-4 text-center" data-aos="fade-right">
+          <div class="col-sm-12 col-md-4 text-center" data-aos="flip-right">
             <img src="super_thank_you.svg" class="img-fluid">
           </div>
 
@@ -169,7 +179,7 @@
             <p class="xs-center"><a href="https://app.pjpark.com.br" class="btn btn-lg btn-primary mt-5">Então contrate a PJ Park</a></p>
           </div>
 
-          <div class="col-sm-12 offset-md-1 col-md-4 text-center" data-aos="fade-left">
+          <div class="col-sm-12 offset-md-1 col-md-4 text-center" data-aos="flip-left">
             <img src="alien_science.svg" class="img-fluid">
           </div>
         </div>
@@ -185,7 +195,7 @@
         </div>
 
         <div class="row">
-          <div class="col-sm-12 col-md-4 text-center" data-aos="fade-right">
+          <div class="col-sm-12 col-md-4 text-center" data-aos="flip-right">
             <img src="best_place.svg" class="img-fluid">
           </div>
 
@@ -209,14 +219,14 @@
   </div>
 </div>
 
-<div class="container-fluid mt-5 mb-3 rodape">
+<div class="container-fluid mt-2 mb-3 rodape">
   <div class="container">
     <div class="row">
-      <div class="col-sm-12 col-md-6">
+      <div class="col-sm-12 col-md-6 mt-3">
         <p>Sua empresa está inativa? Abandonar um CNPJ não é a melhor decisão. Não deixe ela abandonada. Deixe na mão de quem entende! Estacione seu CNPJ na PJ Park. Na PJ Park a gente cuida do seu CNPJ para você voltar e usá-lo quando precisar.</p>
         <p><a href="mailto:contato@pjpark.com.br">contato@pjpark.com.br</a></p>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 mt-3">
         <p><strong>A EMPRESA</strong></p>
   
         <ul class="list-unstyled">
@@ -225,7 +235,7 @@
           <li><a href="/contato">Contato</a></li>
         </ul>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 mt-3">
         <p><strong>SERVIÇOS</strong></p>
   
         <ul class="list-unstyled">
