@@ -10,15 +10,8 @@ paginate = 5
 ignoreErrors = ["error-remote-getjson"]
 
 [params]
-title = "Soho Theme"
-description = "Example Blog"
-gravatar = "jackson.s.teixeira@gmail.com"
-images = ["images/profile.png"]
-profilePicture = "images/profile.png"
-copyright = "Author Name"
-license = "CC BY-SA 4.0"
-licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
-builtWith = true
+title = "PJ Park"
+description = "O primeiro escritório online especializado em empresas inativas"
 mainSections = ["blog"]
 
 [menu]
