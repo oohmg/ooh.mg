@@ -1,3 +1,47 @@
 baseURL = 'https://pjpark.com.br/'
 languageCode = 'pt-br'
 title = 'PJ Park'
+
+DefaultContentLanguage = "pt-br"
+enableInlineShortcodes = true
+summarylength = 10
+enableEmoji = true
+paginate = 5
+ignoreErrors = ["error-remote-getjson"]
+
+[params]
+title = "Soho Theme"
+description = "Example Blog"
+gravatar = "jackson.s.teixeira@gmail.com"
+images = ["images/profile.png"]
+profilePicture = "images/profile.png"
+copyright = "Author Name"
+license = "CC BY-SA 4.0"
+licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+builtWith = true
+mainSections = ["blog"]
+
+[menu]
+
+  [[menu.main]]
+  name = "Nossos planos"
+  identifier = "planos"
+  weight = 10
+  url = "/planos/"
+
+  [[menu.main]]
+  name = "Serviços adicionais"
+  identifier = "servicos"
+  weight = 10
+  url = "/servicos"
+
+  [[menu.main]]
+  name = "Blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
