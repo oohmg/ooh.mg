@@ -3,15 +3,15 @@ author: Jackson Teixeira
 title: Devo inativar a minha empresa?
 date: 2021-03-08
 description: Um breve guia para sua empresa inativa
+layout: post
 ---
-
-# Devo inativar a minha empresa?
 
 Um dos momentos mais frustrantes para qualquer empreendedor é ter que encerrar as atividades da sua empresa. Após tanto trabalho e planejamento, não é fácil aceitar que todo investimento e tempo dedicado não deu o retorno esperado e o único caminho que resta é fechar as portas.
 
 Sem falar da burocracia, onde muitos se sentem desestimulados a formalizar a baixa. Chato, não?
 
 ### E se você tivesse outra opção?
+<!--more-->
 
 Nem sempre oficializar o fim da empresa é a melhor solução.
 
@@ -55,7 +55,3 @@ Não é mágico??
 De qualquer forma, adiantar-se ao problema e fugir das dívidas é fundamental.
 
 Fica a dica ;)
-
-
-
-Publicado em 29/01/2019 por Jackson Teixeira
