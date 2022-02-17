@@ -73,27 +73,11 @@
 
 <script>
   window.addEventListener("DOMContentLoaded", () => {
-    // document.querySelector(".hknAcceptAll").addEventListener("click", btn_event => {
-    //   Array.from(document.getElementsByClassName("hkn-disclaimer-bar")).forEach(widget => widget.remove());
-    // });
-
     document.body.addEventListener("click", event => {
-      let botao = document.querySelector(".hknAcceptAll");
-
-      if (botao !== null) {
-        console.log("achou");
+      if (document.querySelector(".hknAcceptAll") !== null) {
+        Array.from(document.getElementsByClassName("hkn-disclaimer-bar")).forEach(widget => widget.remove());
       }
-      // let selector = 'li';
-
-      // while(event.target != null) {
-      //   if (event.target.match(selector)) {
-      //     return;
-      //   }
-
-      //   event.target = event.target.parentElement;
-      // }
-    }, true);
-
+    });
   });
 </script>
 
