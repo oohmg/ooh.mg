@@ -77,13 +77,22 @@
     //   Array.from(document.getElementsByClassName("hkn-disclaimer-bar")).forEach(widget => widget.remove());
     // });
 
-    document.querySelector(".hknAcceptAll").addEventListener("click", e => {
-        debugger;
-        if (e.target.id == 'test') {
-            console.log('button clicked')
-            // Array.from(document.getElementsByClassName("hkn-disclaimer-bar")).forEach(widget => widget.remove());
-        }
-    }, false);
+    document.body.addEventListener("click", event => {
+      let botao = document.querySelector(".hknAcceptAll");
+
+      if (botao !== null) {
+        console.log("achou");
+      }
+      // let selector = 'li';
+
+      // while(event.target != null) {
+      //   if (event.target.match(selector)) {
+      //     return;
+      //   }
+
+      //   event.target = event.target.parentElement;
+      // }
+    }, true);
 
   });
 </script>
