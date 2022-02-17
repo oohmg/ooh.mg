@@ -71,5 +71,22 @@
   gtag('config', 'UA-156930839-1');
 </script>
 
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    console.log("load page...")
+
+    Array.from(document.getElementsByClassName("hknAcceptAll")).forEach(btn => {
+      console.log("achou o botão");
+
+      btn.addEventListener("click", btn_event => {
+        console.log("clicou no botão");
+
+        Array.from(document.getElementsByClassName("hkn-disclaimer-bar")).forEach(widget => widget.remove());
+      });
+    });
+
+  });
+</script>
+
 </body>
 </html>
