@@ -73,14 +73,28 @@
 
 <script>
   window.addEventListener("DOMContentLoaded", () => {
+    // document.querySelector(".hknAcceptAll").addEventListener("click", btn_event => {
+    //   Array.from(document.getElementsByClassName("hkn-disclaimer-bar")).forEach(widget => widget.remove());
+    // });
+
     document.body.addEventListener("click", event => {
-      let btn =document.querySelector(".hknAcceptAll");
-      if (btn !== null) {
-        debugger;
-        console.log("here");
+      let botao = document.querySelector(".hknAcceptAll");
+
+      if (botao !== null) {
+        console.log("achou");
         Array.from(document.getElementsByClassName("hkn-disclaimer-bar")).forEach(widget => widget.remove());
       }
-    });
+      // let selector = 'li';
+
+      // while(event.target != null) {
+      //   if (event.target.match(selector)) {
+      //     return;
+      //   }
+
+      //   event.target = event.target.parentElement;
+      // }
+    }, true);
+
   });
 </script>
 
