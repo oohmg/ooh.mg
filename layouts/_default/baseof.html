@@ -74,10 +74,7 @@
 <script>
   window.addEventListener("DOMContentLoaded", () => {
     document.body.addEventListener("click", event => {
-      let btn = document.querySelector(".hknAcceptAll");
-      debugger;
-
-      if (btn === event.target) {
+      if (document.querySelector(".hknAcceptAll") === event.target) {
         Array.from(document.getElementsByClassName("hkn-disclaimer-bar")).forEach(widget => widget.remove());
       }
     }, true);
