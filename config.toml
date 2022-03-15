@@ -11,7 +11,7 @@ ignoreErrors = ["error-remote-getjson"]
 
 [params]
 title = "PJ Park"
-description = "O primeiro escritório online especializado em empresas inativas"
+description = "O primeiro escritório online especializado em empresas inativas. Planos a partir de R$ 39,90 mensais."
 mainSections = ["blog"]
 
 [menu]
