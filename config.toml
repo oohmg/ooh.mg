@@ -11,7 +11,7 @@ ignoreErrors = ["error-remote-getjson"]
 
 [params]
 title = "OohMG"
-description = "A maneira mais fácil de planejar, reservar e avaliar a publicidade out-of-home (OOH)"
+description = "A maneira mais fácil de planejar, reservar e avaliar a publicidade out-of-home (OOH)."
 mainSections = ["blog"]
 
 [menu]
