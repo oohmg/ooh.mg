@@ -1,5 +1,5 @@
 +++
 title = "Posts"
-author = "PJ Park Team"
+author = "OohMG Team"
 tags = ["index"]
 +++

@@ -1,6 +1,6 @@
-baseURL = 'https://pjpark.com.br/'
+baseURL = 'https://ooh.mg/'
 languageCode = 'pt-br'
-title = 'PJ Park'
+title = 'OohMG'
 
 DefaultContentLanguage = "pt-br"
 enableInlineShortcodes = true
@@ -10,8 +10,8 @@ paginate = 5
 ignoreErrors = ["error-remote-getjson"]
 
 [params]
-title = "PJ Park"
-description = "O primeiro escritório online especializado em empresas inativas. Planos a partir de R$ 39,90 mensais."
+title = "OohMG"
+description = "A maneira mais fácil de planejar, reservar e avaliar a publicidade out-of-home (OOH)"
 mainSections = ["blog"]
 
 [menu]
