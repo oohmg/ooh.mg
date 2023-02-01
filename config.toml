@@ -1,6 +1,6 @@
 baseURL = 'https://ooh.mg/'
 languageCode = 'pt-br'
-title = 'OohMG'
+title = 'OohMG!'
 
 DefaultContentLanguage = "pt-br"
 enableInlineShortcodes = true
