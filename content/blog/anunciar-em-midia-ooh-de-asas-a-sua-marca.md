@@ -1,6 +1,6 @@
 ---
 author: Jackson Teixeira
-title: Anunciar em mídia OOH: dê asas à sua marca
+title: "Anunciar em mídia OOH: dê asas à sua marca"
 date: 2023-02-03
 description: Não perca mais tempo, invista em publicidade OOH e veja sua marca voar
 layout: post
